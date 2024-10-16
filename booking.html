@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Booking - Opulence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Book Your Luxury Car</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="inventory.html">Our Inventory</a></li>
+                <li><a href="financing.html">Financing</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Book Your Pre-Owned Luxury Car</h2>
+        <p>Find your dream pre-owned luxury car at Opulence and complete your booking online.</p>
+        <form action="/submit_booking" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="car">Select Car:</label>
+            <select id="car" name="car">
+                <option value="Porsche 911">Porsche 911</option>
+                <option value="Mercedes-Benz S-Class">Mercedes-Benz S-Class</option>
+                <option value="Range Rover">Range Rover</option>
+                <option value="Ferrari F8">Ferrari F8</option>
+                </select><br><br>
+
+            <label for="start-date">Pickup Date:</label>
+            <input type="date" id="start-date" name="start-date" required><br><br>
+
+            <input type="submit" value="Book Now">
+            <input type="reset" value="Reset Form">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Opulence. All rights reserved.</p>
+        <nav>
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </footer>
+</body>
+</html>
